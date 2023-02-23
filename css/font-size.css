@@ -1,0 +1,37 @@
+h1, h2,
+.card-text p,
+.card-text{
+  font-size: 1rem !important;
+}
+
+input,
+button,
+p,
+ul li{
+  font-size: 0.8rem !important;
+}
+
+.card-body-text span{
+  font-size: .92rem !important;
+}
+
+/* drop-down */
+.error-message p,
+.drop-down-container i {
+  font-size: 0.5rem !important;
+}
+
+@media (min-width: 700px) {
+  html{
+    font-size: 18px !important;
+  }
+
+  /* error styles */
+  .show-error h2{
+    font-size: 1.5rem !important;
+  }
+
+  .show-error p{
+    font-size: 1rem !important;
+  }
+}

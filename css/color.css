@@ -1,0 +1,64 @@
+.theme-light {
+  --text-color: hsl(200, 15%, 8%);
+  --input-color: hsl(0, 0%, 52%);
+  --background-color: hsl(0, 0%, 98%);
+  --element-color: var(--White);
+  --card-body-color: #f5f5f5;
+  --White: hsl(0, 0%, 100%);
+  --scroll-bar-color: rgba(0, 0, 0, 0.75);
+}
+.theme-dark {
+  --input-color: hsl(0, 0%, 85%);
+  --text-color: hsl(0, 0%, 100%);
+  --card-body-color: var(--element-color);
+  --element-color: hsl(209, 23%, 22%);
+  --background-color: hsl(207, 26%, 17%);
+  --scroll-bar-color: rgba(255, 255, 255, 0.75);
+}
+
+body, .img-container {
+  background-color: var(--background-color) !important;
+}
+
+.logo,
+.error-message,
+.dark-mode-toggler,
+.detail-container{
+  transition: color .5s;
+  color: var(--text-color) !important;
+}
+
+.input-group,
+.navbar,
+.drop-down-container,
+.drop-down-items,
+.country,
+.detail-btn{
+  background-color: var(--element-color) !important;
+  color: var(--text-color) !important;
+}
+
+.card-body {
+  background-color: var(--card-body-color);
+}
+
+.search-btn,
+.search-input,
+.search-input::placeholder,
+.drop-down-container p,
+.drop-down-container i,
+.card-body h5,
+.card-body p{
+  color: inherit !important;
+}
+
+.card-text span,
+.search-input::placeholder {
+  opacity: 0.9 !important;
+}
+
+.search-input,
+.search-btn {
+  background-color: transparent !important;
+}
+
